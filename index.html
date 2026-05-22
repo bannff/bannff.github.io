@@ -3,12 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Rodrigo — AI Engineer & Cybersec Researcher</title>
-  <meta name="description" content="Daniel Rodrigo (bannff) — AI Engineer at Amazon. MCP-first agent systems, fine-tuning, cybersecurity evals, and blockchain." />
+
+  <!-- Primary SEO -->
+  <title>Daniel Rodrigo — Sr. TPM & AI Engineer at Amazon</title>
+  <meta name="description" content="Sr. Technical Program Manager and AI Engineer at Amazon. Agentic security platforms on MCP and multi-agent orchestration. ML pipelines for transformer and state-space models. 14+ years shipping at scale." />
+  <meta name="keywords" content="AI Engineer, Technical Program Manager, TPM, Amazon, MCP, Strands, agentic security, multi-agent orchestration, fine-tuning, transformer, state space models, blockchain, Hyperledger, Austin" />
+  <meta name="author" content="Daniel Rodrigo" />
+  <link rel="canonical" href="https://bannff.github.io/" />
+
+  <!-- Open Graph (Slack, LinkedIn, iMessage, Discord, Facebook) -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://bannff.github.io/" />
+  <meta property="og:title" content="Daniel Rodrigo — Sr. TPM & AI Engineer at Amazon" />
+  <meta property="og:description" content="Building agentic security platforms on MCP and multi-agent orchestration. 14+ years shipping at scale across security, networks, and AI." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/184795715?v=4" />
+  <meta property="profile:first_name" content="Daniel" />
+  <meta property="profile:last_name" content="Rodrigo" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Daniel Rodrigo — Sr. TPM & AI Engineer" />
+  <meta name="twitter:description" content="Agentic security on MCP. ML pipelines for transformer and state-space models. 14+ years at Amazon, FICO, Verizon." />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/184795715?v=4" />
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data: tells Google you're a person, not just a webpage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daniel Rodrigo",
+    "alternateName": "Daniel Eric Rodrigo",
+    "jobTitle": "Sr. Technical Program Manager & AI Engineer",
+    "worksFor": { "@type": "Organization", "name": "Amazon" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Austin", "addressRegion": "TX", "addressCountry": "US" },
+    "email": "mailto:maguino@me.com",
+    "url": "https://bannff.github.io/",
+    "image": "https://avatars.githubusercontent.com/u/184795715?v=4",
+    "sameAs": [
+      "https://github.com/bannff"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Multi-Agent Systems",
+      "Model Context Protocol",
+      "Strands SDK",
+      "Fine-Tuning",
+      "State Space Models",
+      "Cybersecurity",
+      "Agentic Security",
+      "Blockchain",
+      "Hyperledger Fabric",
+      "Network Engineering"
+    ],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Florida International University" }
+  }
+  </script>
 </head>
 <body>
+  <a href="resume.html" class="resume-fab" aria-label="View Resume" title="Resume">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+      <polyline points="14 2 14 8 20 8"></polyline>
+      <line x1="16" y1="13" x2="8" y2="13"></line>
+      <line x1="16" y1="17" x2="8" y2="17"></line>
+      <polyline points="10 9 9 9 8 9"></polyline>
+    </svg>
+    <span>Resume</span>
+  </a>
   <header class="hero">
     <div class="container">
       <div class="hero-grid">
@@ -17,15 +81,16 @@
           <h1>Daniel Rodrigo</h1>
           <p class="tagline">TPM · AI Engineer · Blockchain Enthusiast</p>
           <p class="bio">
-            I build agent systems that scale. My work centers on MCP-first
-            architecture, polymorphic Polylith monorepos, and clean adapter
-            patterns that let LLMs reason across tools without coupling. I
-            ship in many languages and enjoy picking up new frameworks.
+            I build agent systems that scale. My work spans agent dataset
+            creation, model training, MCP-first architecture, and clean
+            adapter patterns that let LLMs reason across tools without
+            coupling. I ship in many languages and enjoy picking up new
+            frameworks.
           </p>
           <div class="cta-row">
             <a class="btn primary" href="https://github.com/bannff" target="_blank" rel="noopener">GitHub</a>
             <a class="btn" href="mailto:maguino@me.com">Email</a>
-            <a class="btn" href="#projects">Projects</a>
+            <a class="btn" href="#programs">Programs</a>
           </div>
         </div>
         <div class="avatar-wrap">
@@ -87,8 +152,63 @@
       </div>
     </section>
 
+    <section id="programs">
+      <h2>Programs &amp; Initiatives</h2>
+      <div class="programs-grid">
+        <div class="program-card">
+          <div class="program-header">
+            <h3>AppSec — Buy With Prime Global Launch</h3>
+            <span class="program-badge">Amazon</span>
+          </div>
+          <p>Orchestrated end-to-end security for Amazon's Buy With Prime global launch. Threat modeling, automated code review, incident response, and GenAI guardrails across the full surface area.</p>
+          <div class="metrics">
+            <div class="metric"><strong>70+</strong><span>services secured</span></div>
+            <div class="metric"><strong>8</strong><span>security teams led</span></div>
+            <div class="metric"><strong>40%</strong><span>faster clearance</span></div>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="program-header">
+            <h3>Software-Defined Infrastructure</h3>
+            <span class="program-badge">Amazon</span>
+          </div>
+          <p>Launched Software-Defined Infrastructure for Amazon's robotics network, giving Fulfillment and Transportation a proprietary fabric built for autonomy, resilience, and cost control. Open-source SONiC on ODM hardware, layer-3 topology with VXLAN overlay and EVPN control plane.</p>
+          <div class="metrics">
+            <div class="metric"><strong>$93M</strong><span>5-year TCO savings</span></div>
+            <div class="metric"><strong>31M+</strong><span>connected devices</span></div>
+            <div class="metric"><strong>Global</strong><span>fulfillment footprint</span></div>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="program-header">
+            <h3>Enterprise Modernization at FICO</h3>
+            <span class="program-badge">FICO</span>
+          </div>
+          <p>Shipped enterprise modernization across financial services and telecom: Pentagon Federal Credit Union origination systems, Rogers Communications AML platform, Cox Communications collections, and Sprint POS for the T-Mobile merger.</p>
+          <div class="metrics">
+            <div class="metric"><strong>99.9%</strong><span>SLA uptime</span></div>
+            <div class="metric"><strong>4+</strong><span>Fortune-500 clients</span></div>
+            <div class="metric"><strong>SPOT</strong><span>FICO award</span></div>
+          </div>
+        </div>
+
+        <div class="program-card private">
+          <div class="program-header">
+            <h3>Blockchain</h3>
+            <span class="program-badge muted">Private</span>
+          </div>
+          <p>Permissioned Hyperledger Fabric ledger on Amazon Managed Blockchain that gives autonomous AI agents cryptographic identities and tamper-evident audit trails across AWS accounts. Solves the "centralized logs aren't really immutable" problem in agentic security.</p>
+          <div class="tags">
+            <span>AMB</span><span>HyperLedger</span><span>Strands</span><span>AWS CDK</span><span>Go</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="projects">
-      <h2>Featured Projects</h2>
+      <h2>Open-Source Projects</h2>
       <div class="project-grid">
         <a class="project-card" href="https://github.com/bannff/python-software-factory" target="_blank" rel="noopener">
           <div class="project-head">
